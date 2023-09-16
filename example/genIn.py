@@ -1,8 +1,5 @@
 import random
 
-def scores(n):
-    return [random.randint(0,100) for i in range(n)]
+scores = [random.randint(1,12), random.randint(0, 59)]
 
-n = int(input())
-print(n)
-print(*scores(n))   
+print(*scores)   

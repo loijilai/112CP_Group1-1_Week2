@@ -1,9 +1,9 @@
 import os
 
 c = [e for e in os.listdir() if e.endswith('.c')][0]
-os.system('gcc '+c+' -o '+c.replace('.c','.exe'))
+os.system('gcc '+c+' -lm '+' -o '+)
 
-exe = [e for e in os.listdir() if e.endswith('.exe')][0]
+exe = [e for e in os.listdir() if e.endswith('.gg')][0]
 
 ins = [e for e in os.listdir() if e.endswith('.in')]
 
